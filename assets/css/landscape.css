@@ -1,0 +1,91 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.widescreen
+{
+	display: none;
+}
+
+.landscape
+{
+	display: none;
+}
+
+
+.smallscreen
+{
+	min-width: 100%;
+}
+.nav-item
+{
+	text-align: center;
+	padding: 14px 16px;
+	overflow: hidden;
+	list-style: none;
+
+}
+
+.nav-link
+{
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.navbar-brand
+{
+	background: none;
+	border: none;
+}
+
+.toggle
+{
+	margin-top: -1px;
+	float: right;
+}
+
+.title
+{
+	top: 50%;
+	transform: translateY(50%);
+	font-size: 40px;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+
+}
+
+
+.descriere
+{
+	font-size: 20px;
+}
+
+.cards
+{
+	width: 100%;
+	margin: 30px auto;
+	transition: all 1s;
+}
+
+.row
+{
+	color: white;
+	width: 200px;
+	height: 200px;
+	background-color: grey;
+	border-radius: 10px;
+	display: inline-block;
+	margin-left: 20px;
+	transition: all .5s;
+	margin: 10px auto;
+}
+
+.row:hover
+{
+	border-radius: 30px;
+}
+
+

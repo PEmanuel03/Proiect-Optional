@@ -1,0 +1,93 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.landscape
+{
+	display: none;
+}
+
+.smallscreen
+{
+	display: none;
+}
+
+.nav-item
+{
+	text-align: center;
+	padding: 14px 16px;
+	overflow: hidden;
+	list-style: none;
+
+}
+
+.nav-link
+{
+	text-decoration: none;
+	text-transform: uppercase;
+font-family: 'Roboto', sans-serif;
+}
+
+.toggle
+{
+	display: none;
+}
+
+.right
+{
+	float: right;
+	margin-right: 40px;
+}
+
+.title
+{
+
+	font-size: 5vw;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+
+}
+
+
+.descriere
+{
+	font-size: 1.3vw;
+}
+
+.cards
+{
+	width: 1000px;
+	margin: 30px auto;
+	transition: all 1s;
+}
+
+.row
+{
+	color: white;
+	width: 300px;
+	height: 300px;
+	background-color: grey;
+	border-radius: 10px;
+	display: inline-block;
+	margin-left: 20px;
+	transition: all .5s;
+}
+
+.row:hover
+{
+	border-radius: 30px;
+}
+
+
+.table th
+{
+	text-align: center;
+}
+
+.conteiner
+{
+	text-align: left;
+}

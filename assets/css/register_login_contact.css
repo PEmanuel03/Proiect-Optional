@@ -1,0 +1,41 @@
+.register
+{
+	margin: 0 auto;
+	width: 300px;
+	text-align: center;
+	border: 3px solid black;
+	position: relative;
+	top: 50%;
+	transform: translateY(50%);
+}
+
+
+input[type="submit"], input[type="email"], input[type="password"], input[type="text"]
+{
+	width: 200px;
+	border: 1px solid black;
+}
+
+input[type="checkbox"]
+{
+	margin-right: 4px;
+	border: 1px solid black;
+}
+
+
+.formtext
+{
+	font-size: 20px;
+}
+
+
+textarea
+{
+	width: 200px;
+	border: 1px solid black;
+}
+
+.container
+{
+	text-align: center;
+}
